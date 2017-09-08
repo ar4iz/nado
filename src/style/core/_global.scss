@@ -1,0 +1,44 @@
+html, body {
+	font-family: $font-base;
+	min-height: 100vh;
+	font-size: 14px;
+	position: relative;
+	width: 100%;
+	@include clearfix;
+	max-width: 100%;
+	overflow-x: hidden;
+	/*background-color: $white;*/
+	color: $grey;
+}
+
+
+h3 {
+	text-align: center;
+	font-size: 36px;
+	color: #555;
+	font-family: $font-bold;
+}
+
+
+
+
+.btn-default {
+	background: #fff;
+	color: $blue;
+	border-color: $blue;
+	cursor: pointer;
+
+	&:hover {
+		background-color: $blue-light;
+	}
+}
+.form-control {
+	padding: 4px;
+	font-size: 11px;
+	border-radius: 0;
+	outline: none;
+
+}
+.form-group {
+	margin-bottom: 10px;
+}

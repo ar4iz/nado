@@ -1,0 +1,56 @@
+//Colors
+
+
+$grey           : #878787;
+$grey-light     : #f9f9f9;
+$grey-semilight : #6c6c6c;
+$blue           : #0098e5;
+$dark           : #505050;
+$blue-light     : #DCE8F2;
+$green          : #6DBE45;
+$green-light    : #E2F2D9;
+$red            : #F74652;
+$azure          : #52DCFF;
+
+$transition-base: 0.3s;
+$transition-fast: 0.15s;
+
+/* BOOTSTRAP OVERRIDES */
+// Grid breakpoints
+/*$grid-breakpoints: (
+        xs: 0,
+        sm: 420px,
+        md: 767px,
+        lg: 893px,
+        xl: 893px
+);*/
+
+// Grid containers
+/*$container-max-widths: (
+        sm: 100%,
+        md: 100%,
+        lg: 853px,
+        xl: 853px
+);*/
+
+// Grid columns
+/*$grid-columns:               12;
+$grid-gutter-width-base:     10px ;
+$grid-gutter-widths: (
+        xs: $grid-gutter-width-base,
+        sm: $grid-gutter-width-base,
+        md: $grid-gutter-width-base,
+        lg: $grid-gutter-width-base,
+        xl: $grid-gutter-width-base
+);*/
+
+//Colors
+$teal          : $azure;
+
+//Fonts
+$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts";
+$font-base: 'ProximaNova-Regular';
+$font-bold: 'ProximaNova-Bold';
+$font-light: 'ProximaNova-Light';
+$font-black: 'ProximaNova-Black';
+$font-top: 'Rubik-Regular';
